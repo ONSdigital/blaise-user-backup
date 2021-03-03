@@ -7,6 +7,11 @@
 [![Github last commit](https://img.shields.io/github/last-commit/ONSdigital/blaise-user-backup.svg)](https://github.com/ONSdigital/blaise-user-backup/commits)
 [![Github contributors](https://img.shields.io/github/contributors/ONSdigital/blaise-user-backup.svg)](https://github.com/ONSdigital/blaise-user-backup/graphs/contributors)
 
+
+## **POC** - Not currently in use. Currently, using [blaise-user-backup-pipeline](https://github.com/ONSdigital/blaise-user-backup-pipeline) instead 
+
+
+
 Backup users and roles into a GCP Bucket as JSON files.
 
 This service connects to the [Blaise Rest API](https://github.com/ONSdigital/blaise-api-rest) to obtain the current user accounts and user roles then stores this data into a JSON file in a GCP Bucket.
